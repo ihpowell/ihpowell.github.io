@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <head>
+            <title>Home</title>
+            <link rel="stylesheet" href="style.css" type="text/css">
+        </head>
+        <div>
+            <nav class="font" class="navigation">
+                <ul class="navigation-list">
+                    <img src="BLMLogo.png" atl="BLM Logo" id="image"> 
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index(2).html">Read</a></li>
+                    <li><a href="index(3).html">Listen</a></li>
+                    <li><a href="Films.html">Watch</a></li>
+                    <li><a href="charity.html">Collaborate</a></li>
+                </ul>
+            </nav> 
+        </div>
+    
+        <div class="homepagecontainer">
+           <h1 id="statement">Educating to Increase Awareness #blacklivesmatter</h1>
+
+            <div class="homediv">
+                <div class="latest-video">
+                    <iframe width="500" height="500" src="https://www.youtube.com/embed/s7knBVL_pQM?autoplay=1" autoplay frameborder="0" allowfullscreen></iframe>
+                    <!-- add "?autoplay=1" to the end of URL link to make a video play when the page is loaded-->
+                </div>
+    
+                <div class="textcontainer">
+                    <h1 class="font2">What is the BLM Movement</h1>
+                    <p class="homepagetext">Four years ago, what is now known as the Black Lives Matter Global Network began to organize. 
+                    It started out as a chapter-based, member-led organization whose mission was to build local power and to intervene when violence was inflicted on Black communities by the state and vigilantes.</p>
+                    <p class="homepagetext">In the years since, it has committed to struggling together and to imagining and creating a world free of anti-Blackness, where every Black person has the social, economic, and political power to thrive.</p>
+                </div>
+            </div>
+        
+            <div>
+                <iframe width="600" height="600" src="https://www.youtube.com/embed/SG4LiBwtWCY" autoplay frameborder="0" allowfullscreen></iframe>
+                <!-- add "?autoplay=1" to the end of URL link to make a video play when the page is loaded-->
+            </div>
+       
+        </div>
+       
+    </body>
+
+    <footer class="footer">
+        <form id="subscribe" method="POST">
+            <h4>NEWSLETTER SIGN-UP</h4>
+            <input type="email" class="form-control input-lg" placeholder="Your email" name="email" id="address" data-validate="validate(required, email)">
+            <button type="submit" id="submitbutton" class="btn wow bounceInRight animate" data-wow-delay="0.8s" onClick="myFunction()">Submit</button>
+            <span id="result" class="section-description"></span>
+            <script>
+                function myFunction() {
+                alert("Team 5 thanks you for subscribing!");
+                }
+            </script>
+        </form>
+        <p>© 2020 Team 5 CFG </p>
+    </footer>
+</html>
