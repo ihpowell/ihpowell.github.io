@@ -1,0 +1,340 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  height:100%;
+}
+
+#container{
+  min-height: 100%;
+  /* margin-bottom: 100px; */
+}
+
+.homepagecontainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 70px;
+}
+
+.textcontainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+html { 
+  background: url(https://cdn.cnn.com/cnnnext/dam/assets/200606230925-0606-peaceful-protests---pittsburgh-super-tease.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.font{
+  font-family: "Lucida Console", Courier, monospace;
+  color: white;
+  text-align: center;
+}
+
+
+.font2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff5ad;
+  text-align: center;
+  border: black 10px solid;
+  border-radius: 25px;
+  background-color: black;
+  width: 80%; 
+}
+
+.text{
+  font-family: "Lucida Console", Courier, monospace;
+  color: white;
+  text-align: center;
+  border: black 10px solid;
+  border-radius: 25px;
+  background-color: black;
+  float: right;
+  display: block;
+  width: 40%;
+  line-height: 25px;
+  font-size: 20px;
+  margin-right: 10%;
+  margin-bottom: 10px;
+}
+
+.homepagetext{
+  font-family: "Lucida Console", Courier, monospace;
+  color:white;
+  text-align: center;
+  border: black 10px solid;
+  border-radius: 25px;
+  background-color: black;
+  margin: 20px;
+}
+
+.tabletext{
+  font-family: "Lucida Console", Courier, monospace;
+  color: white;
+  text-align: center;
+  line-height: 25px;
+  font-size: 20px;
+}
+ 
+#title{
+  font-family: "Lucida Console", Courier, monospace;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  border: black 10px solid;
+  border-radius: 25px;
+  background-color: black;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+#brandlogo img{
+  width: 10%;
+  height: auto;
+}
+
+#image{
+  float: left;
+  width: 100px;
+  padding: 0px;
+  margin: 0px;
+}
+  
+.navigation-list>li{
+  display: inline;
+  text-align: center;
+  font-size:25px;
+  padding: 10px;
+  border: solid silver 10px;
+  border-radius: 25px;
+  background-color: silver;
+}
+  
+a:link{
+  color:white;
+}
+  
+a:visited{
+  color: white;
+}
+  
+a:hover{
+  color: rgb(253, 253, 117);
+}
+  
+a:active{
+  color:rgb(253, 253, 117);
+}
+    
+.navigation-list{
+  list-style: none;
+}
+    
+.paragraph1{
+  font-size: 20px;
+}
+
+#statement{
+  font-family: "Lucida Console", Courier, monospace;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  border: black 10px solid;
+  border-radius: 25px;
+  background-color: black;
+  margin-top: 50px;
+  width: 80%;
+}
+
+.homediv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (min-width: 1281px) {
+  .homediv{
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    width: 80%;
+  }
+}
+  
+.latest-video{
+  border: black;
+  padding-top: 100px;
+}
+
+/* .second-video{
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  margin-top: 60%;
+  margin-bottom: 30px;
+} */
+
+#Netflix{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 25px;
+}
+
+#amazon{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 90px;
+  padding-bottom: 25px;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+  padding: 2px;
+  margin: 3px;
+}
+
+.gallery{
+  border:1px solid black;
+}
+
+.gallery img{
+  width: 100%;
+  height: auto;
+}
+
+.desc{
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.responsive{
+  float: inline-start;
+  display: inline-block;
+  width: 30%;
+  height: auto;
+  padding: 5px;
+  background-color: black;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table{
+  font-family: "Lucida Console", Courier, monospace;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  margin-left:auto;
+  margin-right:auto;
+  padding-top: 30px;
+  table-layout: fixed ;
+  width: 80% ;
+  background-color: black;
+  border-radius: 25px;
+  margin-bottom: 40px;
+}
+
+td {
+  width: 25%;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#cssTable td{
+  text-align: center; 
+  vertical-align: middle;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  color: white;
+}
+
+#tableimg{
+  vertical-align: middle;
+}
+
+#head{
+  padding-top: 70px;
+  color: #fff5ad;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+div.gallery1 {
+  border: 1px solid #ccc;
+}
+
+div.gallery1:hover {
+  border: 1px solid #777;
+}
+
+div.gallery1 img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc1 {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive1 {
+  display: inline-block;
+  padding: 3px;
+  margin: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  float:inline-start;
+  width: 24.5%;
+  background-color: black;
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+}
+.footer {
+  font-family: Bebas Neue, Helvetica,sans-serif;
+  bottom: 0px;
+  width: 100%;
+  padding: 12px;
+  background-color: white ;
+  color: black;
+  text-align: center;
+  font-size: 10px;
+}
+
+.film-list{
+  list-style: none;
+  font-size: 20px;
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
